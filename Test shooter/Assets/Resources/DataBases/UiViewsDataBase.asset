@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bb9a657ae0d4929b060d9ecffb58d01, type: 3}
+  m_Name: UiViewsDataBase
+  m_EditorClassIdentifier: 
+  _views:
+  - _viewKey: game_hud_view
+    _view: {fileID: 2064352718680490840, guid: 3c3307f1a45fb7d499c159a2bd9efb6b, type: 3}
+    _layer: 1
+    _poolLifeTime: 5
+    _maxDefaultPoolCount: 1
+    _useSafeZone: 0
+  - _viewKey: game_settings_view
+    _view: {fileID: 5249293197551211562, guid: 5ab88e19ee55ca44995c0b40699011f1, type: 3}
+    _layer: 1
+    _poolLifeTime: 5
+    _maxDefaultPoolCount: 1
+    _useSafeZone: 0
+  - _viewKey: menu_settings_view
+    _view: {fileID: 1752184430322405641, guid: 6f1e6528b7cd9fc469e7e642a8bfd03a, type: 3}
+    _layer: 2
+    _poolLifeTime: 5
+    _maxDefaultPoolCount: 1
+    _useSafeZone: 0
+  - _viewKey: menu_hud_view
+    _view: {fileID: 1349966628206452093, guid: 0dae91b36dfa72d48a45229ed0dd5784, type: 3}
+    _layer: 1
+    _poolLifeTime: 5
+    _maxDefaultPoolCount: 1
+    _useSafeZone: 0
+  - _viewKey: loading
+    _view: {fileID: 8690895140466860304, guid: 68aca9410d1fb5c449f9ec4890c9a18f, type: 3}
+    _layer: 3
+    _poolLifeTime: 5
+    _maxDefaultPoolCount: 1
+    _useSafeZone: 0

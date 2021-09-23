@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f700dc9ba78d4fb699a4084cb9e991b7, type: 3}
+  m_Name: WeaponsResources
+  m_EditorClassIdentifier: 
+  weaponsData:
+    pistolData:
+      prefab: {fileID: 1425814443739648, guid: b8472c75b2bc2ee4b98e87869dace24f, type: 3}
+      config:
+        range: 100
+        fireRate: 2
+        damageMtp: 1
+      weaponType: 0
+      slotPosition: {x: 0.81, y: -0.42, z: 0.75}
+      muzzlePosition: {x: 0, y: 0.14, z: 0.47}
+    machineGunData:
+      prefab: {fileID: 2028706313821389389, guid: fea1566d87ea59143812144b7c80b26a, type: 3}
+      config:
+        range: 100
+        fireRate: 10
+        damageMtp: 0.7
+      weaponType: 1
+      slotPosition: {x: 1.01, y: -0.62, z: 0.57}
+      muzzlePosition: {x: 0, y: 0.3, z: 2.1}
+    rocketLauncherData:
+      prefab: {fileID: 7670779620426368027, guid: 28cac15429ba5ab44be0bd722c6a8e1a, type: 3}
+      config:
+        range: 100
+        fireRate: 1.5
+        damageMtp: 1.8
+      weaponType: 2
+      slotPosition: {x: 0.55, y: -0.57, z: 0.11}
+      muzzlePosition: {x: 0.067, y: 0.4, z: 1.46}
